@@ -21,6 +21,8 @@ import java.util.*;
  * PUT    /api/publisher/update/city/{publisherId}
  * PUT    /api/publisher/update/state/{publisherId}
  */
+
+
 @RestController
 @RequestMapping("/api/publisher")
 public class PublisherController {

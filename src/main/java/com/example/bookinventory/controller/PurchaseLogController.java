@@ -10,6 +10,8 @@ import java.util.*;
 @RestController
 @RequestMapping("/api/purchaselog")
 @CrossOrigin(origins = "*")
+
+
 public class PurchaseLogController {
 
     private final PurchaseLogService purchaseLogService;

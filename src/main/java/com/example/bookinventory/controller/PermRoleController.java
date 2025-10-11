@@ -10,6 +10,8 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/permrole")
 @CrossOrigin(origins = "*")
+
+
 public class PermRoleController {
 
     private final PermRoleService permRoleService;

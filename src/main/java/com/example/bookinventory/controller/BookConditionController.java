@@ -16,6 +16,8 @@ import java.util.*;
  * PUT  /api/bookcondition/update/fulldescription/{ranks}
  * PUT  /api/bookcondition/{ranks}
  */
+
+
 @RestController
 @RequestMapping("/api/bookcondition")
 public class BookConditionController {
