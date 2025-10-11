@@ -50,3 +50,34 @@
 2025-10-11T14:05:11.824+05:30  INFO 24888 --- [BookInventoryManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-10-11T14:05:11.828+05:30  INFO 24888 --- [BookInventoryManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-10-11T14:05:11.844+05:30  INFO 24888 --- [BookInventoryManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-11T23:54:59.915+05:30  INFO 29108 --- [BookInventoryManagement] [main] c.e.b.BookInventoryApplication           : Starting BookInventoryApplication using Java 23.0.2 with PID 29108 (C:\Users\champson\Downloads\book-inventory\target\classes started by champson in C:\Users\champson\Downloads\book-inventory)
+2025-10-11T23:54:59.919+05:30  INFO 29108 --- [BookInventoryManagement] [main] c.e.b.BookInventoryApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-11T23:55:01.596+05:30  INFO 29108 --- [BookInventoryManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-11T23:55:01.797+05:30  INFO 29108 --- [BookInventoryManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 179 ms. Found 14 JPA repository interfaces.
+2025-10-11T23:55:02.734+05:30  INFO 29108 --- [BookInventoryManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-11T23:55:02.761+05:30  INFO 29108 --- [BookInventoryManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-11T23:55:02.761+05:30  INFO 29108 --- [BookInventoryManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-11T23:55:02.896+05:30  INFO 29108 --- [BookInventoryManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-11T23:55:02.897+05:30  INFO 29108 --- [BookInventoryManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2884 ms
+2025-10-11T23:55:03.241+05:30  INFO 29108 --- [BookInventoryManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-11T23:55:03.375+05:30  INFO 29108 --- [BookInventoryManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-11T23:55:03.446+05:30  INFO 29108 --- [BookInventoryManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-11T23:55:04.011+05:30  INFO 29108 --- [BookInventoryManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-11T23:55:04.074+05:30  INFO 29108 --- [BookInventoryManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-11T23:55:04.366+05:30  INFO 29108 --- [BookInventoryManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a4df251
+2025-10-11T23:55:04.369+05:30  INFO 29108 --- [BookInventoryManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-11T23:55:04.434+05:30  WARN 29108 --- [BookInventoryManagement] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-10-11T23:55:04.445+05:30  WARN 29108 --- [BookInventoryManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-11T23:55:04.487+05:30  INFO 29108 --- [BookInventoryManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-11T23:55:06.160+05:30  INFO 29108 --- [BookInventoryManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-11T23:55:06.460+05:30  INFO 29108 --- [BookInventoryManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-11T23:55:07.683+05:30  WARN 29108 --- [BookInventoryManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-11T23:55:08.529+05:30  INFO 29108 --- [BookInventoryManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-11T23:55:08.543+05:30  INFO 29108 --- [BookInventoryManagement] [main] c.e.b.BookInventoryApplication           : Started BookInventoryApplication in 9.55 seconds (process running for 10.267)
